@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+weights/
+cosmos-framework/checkpoints
+robolab/output/
+logs/
+.cache/
+*.mp4
+*.hdf5
+*.safetensors
+*.pth

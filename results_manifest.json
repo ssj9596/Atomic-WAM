@@ -1,0 +1,53 @@
+{
+  "format": "RoboLab output format",
+  "model": "Atomic-WAM",
+  "type": "VLM + WAM",
+  "instruction_variants": [
+    "default",
+    "vague"
+  ],
+  "repeats_per_variant": 10,
+  "episodes_per_repeat": 120,
+  "results": {
+    "default": "robolab/output/default/repeat_0..repeat_9",
+    "vague": "robolab/output/vague/repeat_0..repeat_9"
+  },
+  "aggregate_metrics": {
+    "episodes_per_variant": 1200,
+    "default": {
+      "successful_episodes": 475,
+      "overall_sr_percent": 39.6,
+      "overall_score_percent": 53.7,
+      "relational_sr_percent": 45.0,
+      "relational_score_percent": 53.9,
+      "visual_sr_percent": 34.0,
+      "visual_score_percent": 49.2,
+      "procedural_sr_percent": 25.9,
+      "procedural_score_percent": 45.7
+    },
+    "vague": {
+      "successful_episodes": 379,
+      "overall_sr_percent": 31.6,
+      "overall_score_percent": 46.7,
+      "relational_sr_percent": 38.6,
+      "relational_score_percent": 50.0,
+      "visual_sr_percent": 26.3,
+      "visual_score_percent": 42.1,
+      "procedural_sr_percent": 15.9,
+      "procedural_score_percent": 38.2
+    }
+  },
+  "competency_denominators_per_variant": {
+    "relational": 420,
+    "visual": 840,
+    "procedural": 220,
+    "overall": 1200
+  },
+  "excluded_artifacts": [
+    "merge_manifest.json",
+    "task_split_summary.tsv",
+    "logs",
+    "GPU shard directories",
+    "benchmark assets"
+  ]
+}
