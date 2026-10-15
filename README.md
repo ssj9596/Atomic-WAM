@@ -13,7 +13,7 @@ Kai Hu<sup>4‡</sup>, Yong Liu<sup>1</sup>, Jiangning Zhang<sup>1‡</sup>
 
 [![Project Page](https://img.shields.io/badge/🌐_Project_Page-4285F4?style=for-the-badge)](https://ssj9596.github.io/Atomic-WAM-project/)
 [![arXiv](https://img.shields.io/badge/arXiv-2610.20157-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.20157)
-[![Weights](https://img.shields.io/badge/Weights-555555?style=for-the-badge&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/datasets/MochunniaN1/Atomic-WAM_Robolab)
+[![Weights](assets/weights-badge.svg)](https://huggingface.co/datasets/MochunniaN1/Atomic-WAM_Robolab)
 
 </div>
 
