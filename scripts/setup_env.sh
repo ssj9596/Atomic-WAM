@@ -21,7 +21,7 @@ if [[ "$DRY_RUN" != 1 ]]; then
 fi
 if [[ "$TARGET" != client ]]; then
   # The released policy imports shared modules from the train dependency set.
-  run uv sync --project "$ROOT/cosmos-framework" --python 3.12 --frozen --no-dev --extra train --group cu128-train --group policy-server
+  run uv sync --project "$ROOT/cosmos-framework" --python 3.13 --frozen --no-dev --extra train --group cu128-train --group policy-server
   if [[ "$DRY_RUN" != 1 ]]; then
     (cd "$ROOT/cosmos-framework"; COSMOS_TRAINING=0 .venv/bin/python -m cosmos_framework.scripts.action_policy_server_robolab --help >/dev/null)
   fi

@@ -30,7 +30,7 @@ Kai Hu<sup>4‡</sup>, Yong Liu<sup>1</sup>, Jiangning Zhang<sup>1‡</sup>
 
 ## Dependencies and installation
 
-The model server runs on Linux with an NVIDIA CUDA GPU. RoboLab additionally requires IsaacSim 5.0.0, IsaacLab 2.2.0, and the official benchmark assets. The installer creates separate environments for the server (Python 3.12) and simulator (Python 3.11), using the included dependency lockfiles and CUDA 12.8 packages.
+The model server runs on Linux with an NVIDIA CUDA GPU. RoboLab additionally requires IsaacSim 5.0.0, IsaacLab 2.2.0, and the official benchmark assets. The installer creates separate environments for the server (Python 3.13) and simulator (Python 3.11), using the included dependency lockfiles and CUDA 12.8 packages.
 
 ### 1. Clone the repository
 
