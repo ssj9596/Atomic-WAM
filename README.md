@@ -11,10 +11,9 @@ Kai Hu<sup>4‡</sup>, Yong Liu<sup>1</sup>, Jiangning Zhang<sup>1‡</sup>
 <sup>*</sup>Equal contribution &nbsp; <sup>‡</sup>Equal advising<br>
 <sup>†</sup>Work completed during an internship at ACE Robotics
 
-[![Project Page](https://img.shields.io/badge/🌐_Project_Page-72936a?style=for-the-badge)](https://ssj9596.github.io/Atomic-WAM-project/)
+[![Project Page](https://img.shields.io/badge/🌐_Project_Page-4285F4?style=for-the-badge)](https://ssj9596.github.io/Atomic-WAM-project/)
 [![arXiv](https://img.shields.io/badge/arXiv-2610.20157-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.20157)
-[![Code](https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ssj9596/Atomic-WAM)
-[![Weights](https://img.shields.io/badge/Weights-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/datasets/MochunniaN1/Atomic-WAM_Robolab)
+[![Weights](https://img.shields.io/badge/Weights-555555?style=for-the-badge&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/datasets/MochunniaN1/Atomic-WAM_Robolab)
 
 </div>
 
